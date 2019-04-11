@@ -1,0 +1,14 @@
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\DiscoMania.Domain.deps.json
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\DiscoMania.Domain.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.csprojAssemblyReference.cache
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.csproj.CoreCompileInputs.cache
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.AssemblyInfoInputs.cache
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.AssemblyInfo.cs
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\DiscoMania.Domain.pdb
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.csproj.CopyComplete
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\obj\Debug\netcoreapp2.2\DiscoMania.Domain.pdb
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\Filters.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\Helper.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\Filters.pdb
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\DiscoMania.Domain\bin\Debug\netcoreapp2.2\Helper.pdb

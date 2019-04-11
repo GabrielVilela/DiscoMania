@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-WebAPI", "1-WebAPI", "{03F11791-A502-4710-AAB6-4DF5B10215A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania", "DiscoMania\DiscoMania.csproj", "{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{94DC89E9-A505-4303-B241-91C47022B9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Doamin", "3-Doamin", "{9AB5E7B4-E786-4C9F-A8CB-5A4B62536B70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{B2BBDE41-FDF6-4A51-A800-FA04CFF92CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Tests", "5-Tests", "{7580BA73-4648-4B54-81CE-771F258BC443}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania.Application", "DiscoMania.Application\DiscoMania.Application.csproj", "{A7DBAE00-7459-429E-A467-C2FAC00A9843}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania.Domain", "DiscoMania.Domain\DiscoMania.Domain.csproj", "{9ACEA753-81F8-4D1A-A35A-A597BA0B7696}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania.Repository", "DiscoMania.Repository\DiscoMania.Repository.csproj", "{ADF529DF-6AE9-4720-91D2-2335BD7EB960}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania.IoC", "DiscoMania.IoC\DiscoMania.IoC.csproj", "{E64A92B8-D993-4494-9069-8F9791C18276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filters", "Filters\Filters.csproj", "{3D23E5FE-2D86-402A-86F0-F426FC5DF98A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helper", "Helper\Helper.csproj", "{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoMania.Tests", "DiscoMania.Tests\DiscoMania.Tests.csproj", "{107639E3-650C-43F0-AA6F-8928D9DAA7E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3B119AA-B86E-49BD-9D36-2E0552FABD29}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		ScriptDeCriacaBanco.sql = ScriptDeCriacaBanco.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DBAE00-7459-429E-A467-C2FAC00A9843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DBAE00-7459-429E-A467-C2FAC00A9843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DBAE00-7459-429E-A467-C2FAC00A9843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DBAE00-7459-429E-A467-C2FAC00A9843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACEA753-81F8-4D1A-A35A-A597BA0B7696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACEA753-81F8-4D1A-A35A-A597BA0B7696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACEA753-81F8-4D1A-A35A-A597BA0B7696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACEA753-81F8-4D1A-A35A-A597BA0B7696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF529DF-6AE9-4720-91D2-2335BD7EB960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF529DF-6AE9-4720-91D2-2335BD7EB960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF529DF-6AE9-4720-91D2-2335BD7EB960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF529DF-6AE9-4720-91D2-2335BD7EB960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64A92B8-D993-4494-9069-8F9791C18276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64A92B8-D993-4494-9069-8F9791C18276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64A92B8-D993-4494-9069-8F9791C18276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64A92B8-D993-4494-9069-8F9791C18276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D23E5FE-2D86-402A-86F0-F426FC5DF98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D23E5FE-2D86-402A-86F0-F426FC5DF98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D23E5FE-2D86-402A-86F0-F426FC5DF98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D23E5FE-2D86-402A-86F0-F426FC5DF98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107639E3-650C-43F0-AA6F-8928D9DAA7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107639E3-650C-43F0-AA6F-8928D9DAA7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107639E3-650C-43F0-AA6F-8928D9DAA7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107639E3-650C-43F0-AA6F-8928D9DAA7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D8A2DF6-82B6-4DE5-AC93-C1D14F68185C} = {03F11791-A502-4710-AAB6-4DF5B10215A9}
+		{A7DBAE00-7459-429E-A467-C2FAC00A9843} = {94DC89E9-A505-4303-B241-91C47022B9E9}
+		{9ACEA753-81F8-4D1A-A35A-A597BA0B7696} = {9AB5E7B4-E786-4C9F-A8CB-5A4B62536B70}
+		{ADF529DF-6AE9-4720-91D2-2335BD7EB960} = {B2BBDE41-FDF6-4A51-A800-FA04CFF92CA1}
+		{E64A92B8-D993-4494-9069-8F9791C18276} = {B2BBDE41-FDF6-4A51-A800-FA04CFF92CA1}
+		{3D23E5FE-2D86-402A-86F0-F426FC5DF98A} = {B2BBDE41-FDF6-4A51-A800-FA04CFF92CA1}
+		{E80C0ED7-6836-4D82-BC1E-8EBC40F40A88} = {B2BBDE41-FDF6-4A51-A800-FA04CFF92CA1}
+		{107639E3-650C-43F0-AA6F-8928D9DAA7E4} = {7580BA73-4648-4B54-81CE-771F258BC443}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7466CC5-E41E-4471-92E5-1E20737449D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\bin\Debug\netcoreapp2.2\Helper.deps.json
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\bin\Debug\netcoreapp2.2\Helper.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\bin\Debug\netcoreapp2.2\Helper.pdb
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.csproj.CoreCompileInputs.cache
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.AssemblyInfoInputs.cache
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.AssemblyInfo.cs
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.dll
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.pdb
+C:\Gabriel\Estudos\DiscoMania\DiscoMania\Helper\obj\Debug\netcoreapp2.2\Helper.csprojAssemblyReference.cache

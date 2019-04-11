@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.IoC\\DiscoMania.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\DiscoMania.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\DiscoMania.Application.csproj",
+        "projectName": "DiscoMania.Application",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\DiscoMania.Application.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj"
+              },
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj",
+        "projectName": "DiscoMania.Domain",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj"
+              },
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "SpotifyWebApi-Core": {
+              "target": "Package",
+              "version": "[0.0.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.IoC\\DiscoMania.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.IoC\\DiscoMania.IoC.csproj",
+        "projectName": "DiscoMania.IoC",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.IoC\\DiscoMania.IoC.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\DiscoMania.Application.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Application\\DiscoMania.Application.csproj"
+              },
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\DiscoMania.Repository.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\DiscoMania.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\DiscoMania.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\DiscoMania.Repository.csproj",
+        "projectName": "DiscoMania.Repository",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\DiscoMania.Repository.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\DiscoMania.Domain\\DiscoMania.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj",
+        "projectName": "Filters",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\Filters.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Filters\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj": {
+                "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj",
+        "projectName": "Helper",
+        "projectPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\Helper.csproj",
+        "packagesPath": "C:\\Users\\gabriel.vilela\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel\\Estudos\\DiscoMania\\DiscoMania\\Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gabriel.vilela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

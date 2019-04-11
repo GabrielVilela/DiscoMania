@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  disco.mania.webapi:
+    image: discomania.webapi
+    build:
+      context: .
+      dockerfile: DiscoMania/Dockerfile
+    ports:
+      - 9091:80
+
+networks:
+  default:
+    external:
+      name: discomania
